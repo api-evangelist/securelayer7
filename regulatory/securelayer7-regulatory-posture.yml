@@ -1,0 +1,40 @@
+generated: '2026-10-21'
+method: probed
+source: https://securelayer7.net/privacy-policy
+source: https://securelayer7.net/privacy-policy
+signals:
+  data_subject_request:
+    evidence:
+      source: https://securelayer7.net/privacy-policy
+      http_status: 200
+      fetched: true
+      quote: "You may have rights to access, correct, delete, port, restrict or object to processing, and to opt out of marketing. To exercise rights, email info@securelayer7.net; we will verify your identity and respond within the period required by applicable law."
+    note: Provides mechanisms for data subject rights requests.
+  subprocessors:
+    evidence:
+      source: https://securelayer7.net/privacy-policy
+      http_status: 200
+      fetched: true
+      quote: "We share personal data only with: service providers that host, secure, analyse, bill or support the site and our communications, under contract and only as needed, currently including cloud hosting and content delivery (AWS/CloudFront), email delivery (Mailgun), product analytics, and payment processing (PayPal); professional advisers; and authorities where required by law or to protect rights and safety."
+    note: Lists sub‑processors used.
+  data_retention:
+    evidence:
+      source: https://securelayer7.net/privacy-policy
+      http_status: 200
+      fetched: true
+      quote: "We keep personal data only as long as necessary: enquiry and marketing data for up to 24 months after your last interaction; account data for the life of the account plus 90 days; client engagement records and security evidence for the term of the engagement plus three years, or as the engagement agreement specifies; and billing and tax records for the period required by law."
+    note: Describes retention periods for different data categories.
+  data_residency:
+    evidence:
+      source: https://securelayer7.net/privacy-policy
+      http_status: 200
+      fetched: true
+      quote: "We operate in the United States and India and may transfer personal data between them and to service providers in other countries. For transfers from the EEA or UK we use the Standard Contractual Clauses with appropriate supplementary measures; transfers involving India are handled in accordance with the Digital Personal Data Protection Act, 2023."
+    note: States international data transfers and residency.
+  ai_transparency:
+    evidence:
+      source: https://securelayer7.net/privacy-policy
+      http_status: 200
+      fetched: true
+      quote: "We do not sell personal data, and we do not use client engagement data to train machine‑learning models."
+    note: Declares that personal data is not used to train AI models.

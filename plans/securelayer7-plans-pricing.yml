@@ -1,0 +1,39 @@
+generated: '2026-10-21'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://securelayer7.net/products/autonomous-pentest/pricing
+sources:
+- https://securelayer7.net/products/autonomous-pentest/pricing
+name: SecureLayer7 pricing
+audience: business-product
+pricing_basis: per-call
+plans:
+- name: Lite
+  price_text: $3,500 per test
+  price: 3500
+  description: A small web app, a few features, simple workflows.
+  features:
+  - Web app testing
+  - Email support
+- name: Plus
+  price_text: $6,000 per test
+  price: 6000
+  description: A web app with a documented API, several modules and integrations.
+  features:
+  - Web app and API testing
+  - Email support
+- name: Premium
+  price_text: $9,000 per test
+  price: 9000
+  description: A larger platform, many modules, complex auth, multi-step workflows.
+  features:
+  - Deep pentest
+  - Dedicated CSM on qualifying programs
+- name: Enterprise
+  price_text: Custom
+  description: A mature application portfolio, broad functionality, a recurring program, Active Directory.
+  features:
+  - Everything in Premium plus Active Directory
+  - Named CSM and TAM
+  - 24/7 support
+docs: https://securelayer7.net/products/autonomous-pentest/pricing

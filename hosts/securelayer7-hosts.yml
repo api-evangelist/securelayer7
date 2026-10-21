@@ -1,0 +1,67 @@
+generated: '2026-10-21'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 4
+  own: 3
+  other_domain: 0
+  platform: 1
+  roles:
+  - api
+  - marketing
+  - source
+  - website
+hosts:
+- host: api.securelayer7.net
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: securelayer7.net
+  role: api
+  relation: own
+- host: blog.securelayer7.net
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - Blog
+  serves: []
+  registrable_domain: securelayer7.net
+  role: marketing
+  relation: own
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: securelayer7.net
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Newsroom
+  - Website
+  - Pricing
+  - TermsOfService
+  - PrivacyPolicy
+  - Contact
+  serves:
+  - docs
+  - cdn
+  vendor: cloudfront
+  registrable_domain: securelayer7.net
+  role: website
+  relation: own
